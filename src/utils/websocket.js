@@ -1,7 +1,9 @@
 import { htmlActions } from "./htmlActions.js";
 
 export function setupWebSocket(userId) {
-  const socket = new WebSocket("ws://task-planner-backend-ub45.onrender.com/");
+  const socket = new WebSocket(
+    "https://task-planner-backend-ub45.onrender.com/"
+  );
   socket.addEventListener("open", () => {
     console.log("🔌 WebSocket conectado");
     socket.send(
