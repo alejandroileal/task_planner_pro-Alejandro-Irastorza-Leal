@@ -12,7 +12,6 @@ export function renderLogin() {
   loginForm.addEventListener("submit", async (e) => {
     e.preventDefault();
     const loginData = getFormData(e.target);
-    console.log(loginData);
     await userSlice.loginUser(loginData);
   });
 }

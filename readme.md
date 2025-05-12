@@ -31,6 +31,8 @@ Pasos:
 - Instalar la extensión **Live Server** (si aún no la tienes).
 - Hacer clic derecho sobre `index.html` y seleccionar **"Open with Live Server"**.
 - ⚠️ Asegúrate de que se ejecute en el **puerto 5500** y el host sea **localhost** (esto puede hacerse manualmente cambiando la ip en la barra de navegación del navegador por 'localhost')
+- El Admin User es `aleal1202@gmail.com` y la contraseña `12345`
+- El User puede crearse desde la ruta `/#register`
 
 > No se requieren variables de entorno para esta parte del proyecto.
 
