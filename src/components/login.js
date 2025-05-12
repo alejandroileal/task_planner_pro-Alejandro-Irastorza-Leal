@@ -15,7 +15,7 @@ export function loginSection() {
         <input class="login__input--blue-button" type="submit" value="Iniciar sesión">
       </form>
 
-      <p class="login__register-href">¿No tienes cuenta? <a href="">Crea una</a></p>
+      <p class="login__register-href">¿No tienes cuenta? <a href="#register">Crea una</a></p>
 
     </div>
   </section>`;

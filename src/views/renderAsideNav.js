@@ -14,11 +14,11 @@ export function renderAsideNav() {
   const newTaskBtn = document.querySelector("#newTaskBtn");
   const newEventBtn = document.querySelector("#newEventBtn");
 
-  newTaskBtn.addEventListener("click", (e) => {
+  newTaskBtn?.addEventListener("click", (e) => {
     if (tasksSlice.currentTask) tasksSlice.cleanCurrentTask();
   });
 
-  newEventBtn.addEventListener("click", (e) => {
+  newEventBtn?.addEventListener("click", (e) => {
     if (eventsSlice.currentEvent) eventsSlice.cleanCurrentEvent();
   });
 }
